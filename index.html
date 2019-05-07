@@ -5,65 +5,67 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>Restaurante</title>
+        <script src="js/Chart.min.js"></script>
         <link rel="stylesheet" href="css/all.min.css">
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/styles.css">
     </head>
-    <body>
-		<nav class="navbar navbar-default">
-            <div class="container-fluid">
-                <div class="navbar-header">
-                    <button
-                        type="button"
-                        class="navbar-toggle collapsed"
-                        data-toggle="collapse"
-                        data-target="#mainNav"
-                    >
-                        <span class="sr-only">Toggle Navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span></button
-                    ><a href="" class="navbar-brand"
-                        ><img src="img/name-01.png" alt=""
-                    /></a>
-                </div>
-                <div class="collapse navbar-collapse" id="mainNav">
-                    <ul class="nav navbar-nav navbar-right">
-                        <li><a href="#"></a></li>
-                        <li><a href="#"></a></li>
-                        <li><a href="#"></a></li>
-                        <li><a href="#"></a></li>
-                        <li><a href="#"></a></li>
-                    </ul>
-                </div>
-                <div class="collapse navbar-collapse" id="mainNav">
-                    <ul class="nav navbar-nav navbar-right">
-                        <li class="active">
-                            <a href="#"
-                                >Home
-                                <span class="sr-only"
-                                    >(current)</span
-                                ></a
-                            >
-                        </li>
-                        <li><a href="#our_story">Our Story</a></li>
-                        <li><a href="#review">Review</a></li>
-                        <li><a href="#menu">Menu</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-        <!-- My carousel -->
+    <body data-gr-c-s-loaded="true">
+        <nav class="navbar navbar-default">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<button
+						type="button"
+						class="navbar-toggle collapsed"
+						data-toggle="collapse"
+						data-target="#mainNav">
+						<span class="sr-only">Toggle Navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span></button
+					><a href="" class="navbar-brand"
+						><img src="img/name-01.png" alt=""
+					/></a>
+				</div>
+				<div class="collapse navbar-collapse" id="mainNav">
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="#"></a></li>
+						<li><a href="#"></a></li>
+						<li><a href="#"></a></li>
+						<li><a href="#"></a></li>
+						<li><a href="#"></a></li>
+					</ul>
+				</div>
+				<div class="collapse navbar-collapse" id="mainNav">
+					<ul class="nav navbar-nav navbar-right">
+						<li class="active">
+							<a href="#"
+								>Home
+								<span class="sr-only"
+									>(current)</span
+								></a
+							>
+						</li>
+						<li><a href="#our_story">Our Story</a></li>
+						<li><a href="#review">Review</a></li>
+						<li><a href="#menu">Menu</a></li>
+						<li><a href="#contact">Contact</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		
+		<!-- My carousel -->
+        
         <div class="container-fluid wrap">
             <div id="myCarousel" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators">
                     <li data-target="myCarousel" data-slide-to="0" class="active"></li>
-                    <li data-target="myCarousel" data-slide-to="0"></li>
-                    <li data-target="myCarousel" data-slide-to="0"></li>
+                    <li data-target="myCarousel" data-slide-to="1"></li>
+                    <li data-target="myCarousel" data-slide-to="2"></li>
                 </ol>
                 <carousel-inner>
-                    <div class="item main_img1">
+                    <div class="item main_img1 active">
                         <div class="carousel-caption">
                             <img src="img/logo-01.png" alt="logo" class="img-responsive">
                             <h1></h1>
@@ -98,10 +100,8 @@
                 </a>
             </div>
         </div>
-        <footer>
-
-        </footer>
-        <script src="js/bootstrap.min.js"></script>
-        <script src="js/script.js"></script>
+        
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/jquery.min.js"></script>
     </body>
 </html>
