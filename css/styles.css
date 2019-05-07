@@ -57,9 +57,49 @@ body {
 	border-color: transparent;
 }
 
+p, h1, h2 {
+	color: #000;
+}
+
 .carousel-caption p {
 	color: #c7c7c7;
 	font-size: 16px;
 }
 
+#our_story h1 {
+	font-family: 'Dancing Script', sans-serif;
+	font-size: 7em;
+	text-shadow: 1px 1px 5px #0a0a0a;
+}
 
+.story_year {
+	font-weight: 700;
+	font-size: 200px;
+	z-index: -1;
+	position: absolute;
+	color: rgba(149,147,147,0.2);
+}
+
+#review {
+	background-image: url(../img/food_review.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#review .center {
+	margin: 0 auto;
+	float: none;
+	background-color: rgba(20, 20, 20, 0.6);
+	padding: 10px;
+	margin-top: 145px;
+	border-radius: 5px;
+}
+
+#review h1 {
+	font-family: 'Dancing Script', cursive;
+	color: #f8512f;
+}
+
+#review p {
+	
+}
